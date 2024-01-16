@@ -17,8 +17,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
  ###Destop view
- 
 
+ 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -36,7 +36,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 I learnt how to pseudoclass and pseudo-elments in a new way.
 
-To see how you can add code snippets, see below:
+Code snippets on pseudoclass and pseudo-elments , see below:
 
 ```css
     h1{
