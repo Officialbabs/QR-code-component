@@ -16,8 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-
-![](./screenshot.jpg)
+ ###Destop view
+ 
 
 ### Links
 
@@ -38,19 +38,28 @@ I learnt how to pseudoclass and pseudo-elments in a new way.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+    h1{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    h1:first-child{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h1::after{
+        content: " Scan the QR code to visit Frontend Mentor and take your coding skills to the next level";
+        font-size: 14px;
+        color: gray;
+    }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 
 ## Author
 - Frontend Mentor - [@Officialbabs](https://www.frontendmentor.io/profile/Officialbabs)
