@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
  ###Destop view
-
+  ![A screenshot on Surface 7 pro](screenshots/(Surface Pro 7).png)
  
 ### Links
 
