@@ -16,10 +16,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
- ###Destop view
-  ![A screenshot on Surface 7 pro](screenshots/(Surface Pro 7).png)
+ Destop view on a Surface pro 7
+  ![A screenshot on Surface pro 7](screenshots/Surface-Pro-7.png)
+ Tablet view on an ipad mini
+   ![A screenshot on an Ipad mini](screenshots/iPad-Mini.png)
+ Mobile (protrait orientation)view on an Iphone 14 pro max
+   ![A screenshot on an Iphone 14 pro max](screenshots/iPhone-14-Pro-Max.png)
  
-### Links
+ Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
