@@ -19,6 +19,10 @@ body{
     text-align: center;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+} 
+
 .main{
     display: grid;
     grid-template-rows:4fr 1fr 1fr ;
