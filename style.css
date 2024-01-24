@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: hsl(215, 28%, 83%);
+    background-color: hsl(212, 45%, 89%);
     display: grid;
     grid-template-rows: 98% 2%;
     grid-template-columns: 1fr;
@@ -13,7 +13,7 @@ body{
     padding: 0;
     height: auto;
     min-width: 250px;
-    min-height:95vh ;
+    min-height:98vh ;
     justify-items: center;
     justify-content: center;
     text-align: center;
@@ -25,18 +25,19 @@ body::-webkit-scrollbar{
 
 .main{
     display: grid;
-    grid-template-rows:4fr 1fr 1fr ;
-    gap: 2px;
+    grid-template-rows: 65%  20% 15% ;
+    gap: 5px;
     height: fit-content;
     width: auto;
-    max-height: 535px;
+    max-height: 460px;
     min-height: 300px;
-    max-width: 355px;
+    max-width: 290px;
     min-width: 200px;
     background-color: white;
     border-radius: 15px;
-    padding: 18px; 
+    padding: 15px; 
     text-align: center;
+    box-sizing: border-box;
 
 }
 
@@ -47,7 +48,7 @@ img{
 h1{
     font-weight: 700;
     font-size: 24px;
-    width: 85%;
+    width: 100%;
     line-height: 29px;
     margin: auto;
 }
@@ -56,7 +57,7 @@ h1{
     font-size: 15px;
     font-weight:700;
     color: grey;
-    width: 85%;
+    width: 100%;
     margin: auto;
     line-height: 20px;
 }
