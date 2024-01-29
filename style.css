@@ -77,15 +77,19 @@ p a{
 @media screen and ( max-width: 480px),(max-height: 717px) {
 
     body{
-        width: 100%;
+        width: unset;
+        max-height: unset;
         min-height: 100vh;
     }
     
 
     .main{
-        width:80%;
-        min-height:fit-content;
-        gap: 1px;
+        min-width:85%;
+        min-height:max-content;
+        gap: 10px;
+        
+        
+
     }
 
     h1{
