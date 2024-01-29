@@ -1,6 +1,7 @@
 /* STYLES FOR DESKTOPS  AND TABLETS  */
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -17,6 +18,7 @@ body{
     justify-items: center;
     justify-content: center;
     text-align: center;
+    gap: 10px;
 }
 
 body::-webkit-scrollbar{
@@ -28,10 +30,10 @@ body::-webkit-scrollbar{
     grid-template-rows: 65%  20% 15% ;
     gap: 5px;
     height: fit-content;
-    width: auto;
-    max-height: 460px;
+    width: unset;
+    max-height: 500px;
     min-height: 300px;
-    max-width: 290px;
+    max-width: 300px;
     min-width: 200px;
     background-color: white;
     border-radius: 15px;
@@ -79,18 +81,17 @@ p a{
     body{
         width: unset;
         max-height: unset;
-        min-height: 100vh;
+        min-height: 95vh;
     }
     
 
     .main{
-        min-width:80%;
-        min-height:max-content;
-        gap: 10px;
-        
-        
-
-    }
+       width:80%;
+       height: fit-content;
+       min-height:450px;
+       max-height: 500px;
+       gap: 1px;
+   }
 
     h1{
         font-size: 20px;
@@ -98,7 +99,7 @@ p a{
     }
     
     .main p{
-        font-size: 13px;
+        font-size: 12px;
         line-height: 18px;
     }
     
